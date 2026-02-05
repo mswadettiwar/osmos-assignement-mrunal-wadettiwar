@@ -5,5 +5,5 @@
 - TypeScript
 
 ## How to Run All Tests
-npx playwright test
-npm test
+- npx playwright test
+- npm test
