@@ -3,7 +3,8 @@ import { defineConfig } from '@playwright/test';
 export default defineConfig({
   testDir: './tests',
   use: {
-    baseURL: 'https://reqres.in/api',
+    baseAPIURL: 'https://reqres.in/api',
+    baseUIURL: 'https://www.saucedemo.com',
     headless: true,
   },
 });
