@@ -5,7 +5,7 @@ export class ApiClient {
 
   async init() {
     this.context = await request.newContext({
-      baseURL: 'https://reqres.in/api',
+      baseAPIURL: 'https://reqres.in/api',
       headers: { 'Content-Type': 'application/json' },
     });
   }
