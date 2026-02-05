@@ -1,5 +1,5 @@
 import { test, expect } from '@playwright/test';
-import { LoginPage } from '../../src/pages/loginPage';
+import { LoginPage } from '../../utils/pages/loginPage';
 
 
 test.describe('SauceDemo Login', () => {
